@@ -1,0 +1,64 @@
+{
+  "name": "ncuesta/symfony-legacy",
+  "license": "MIT",
+  "type": "project",
+  "description": "symfony 1.4 (Legacy) project installer -- Propel flavored",
+  "authors": [
+    {
+      "name": "Nahuel Cuesta Luengo",
+      "email": "nahuelcuestaluengo@gmail.com"
+    }
+  ],
+  "config": {
+    "bin-dir": "bin",
+    "vendor-dir": "lib/vendor"
+  },
+  "require": {
+    "php": ">= 5.2.4, < 5.4",
+    "composer/installers": "dev-master",
+    "symfony/symfony1": "1.4.20",
+    "propel/sf-propel-o-r-m-plugin": "dev-master",
+    "desarrollo/dcReferenceModelPlugin": "dev-master",
+    "desarrollo/dcReloadedFormExtraPlugin": "dev-master"
+  },
+  "repositories": {
+    "symfony": {
+      "type": "package",
+      "package": {
+        "name": "symfony/symfony1",
+        "version": "1.4",
+        "bin": ["symfony-1.4.20/data/bin/symfony"],
+        "dist": {
+          "url": "https://github.com/symfony/symfony1/zipball/1.4",
+          "type": "zip"
+        }
+      }
+    },
+    "dcReferenceModelPlugin": {
+      "type": "package",
+      "package": {
+        "name": "desarrollo/dcReferenceModelPlugin",
+        "type": "symfony1-plugin",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/Symfony-Plugins/dcReferenceModelPlugin",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    "dcReloadedFormExtraPlugin": {
+      "type": "package",
+      "package": {
+        "name": "desarrollo/dcReloadedFormExtraPlugin",
+        "type": "symfony1-plugin",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/Symfony-Plugins/dcReloadedFormExtraPlugin",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  }
+}

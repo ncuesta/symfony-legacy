@@ -1,0 +1,24 @@
+# symfony project files
+bin
+lib/vendor
+cache/*
+log/*
+config/databases.yml
+config/propel.ini
+config/*-schema.xml
+data/sql/*
+plugins/*Plugin/lib/filter/base/Base*
+plugins/*Plugin/lib/form/base/Base*
+plugins/*Plugin/lib/model/om/*
+plugins/*Plugin/lib/model/map/*
+lib/filter/base/Base*
+lib/form/base/Base*
+lib/reference/base/*
+lib/model/om/*
+lib/model/map/*
+web/uploads/*
+web/*Plugin
+
+# IDE-specific files
+.idea
+.sublime-*
