@@ -27,7 +27,7 @@
       "package": {
         "name": "symfony/symfony1",
         "version": "1.4",
-        "bin": ["symfony-1.4.20/data/bin/symfony"],
+        "bin": ["data/bin/symfony"],
         "dist": {
           "url": "https://github.com/symfony/symfony1/zipball/1.4",
           "type": "zip"

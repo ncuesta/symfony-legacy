@@ -1,6 +1,6 @@
 # symfony project files
-bin
-lib/vendor
+/bin/
+lib/vendor/
 cache/*
 log/*
 config/databases.yml
@@ -20,5 +20,5 @@ web/uploads/*
 web/*Plugin
 
 # IDE-specific files
-.idea
+.idea/
 .sublime-*
