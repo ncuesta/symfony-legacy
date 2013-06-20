@@ -18,8 +18,8 @@
     "composer/installers": "dev-master",
     "symfony/symfony1": "1.4",
     "propel/sf-propel-o-r-m-plugin": "dev-master",
-    "desarrollo/dcReferenceModelPlugin": "dev-master",
-    "desarrollo/dcReloadedFormExtraPlugin": "dev-master"
+    "desarrollo/dc-reference-model-plugin": "dev-master",
+    "desarrollo/dc-reloaded-form-extra-plugin": "dev-master"
   },
   "repositories": {
     "symfony": {
@@ -37,7 +37,7 @@
     "dcReferenceModelPlugin": {
       "type": "package",
       "package": {
-        "name": "desarrollo/dcReferenceModelPlugin",
+        "name": "desarrollo/dc-reference-model-plugin",
         "type": "symfony1-plugin",
         "version": "dev-master",
         "source": {
@@ -50,7 +50,7 @@
     "dcReloadedFormExtraPlugin": {
       "type": "package",
       "package": {
-        "name": "desarrollo/dcReloadedFormExtraPlugin",
+        "name": "desarrollo/dc-reloaded-form-extra-plugin",
         "type": "symfony1-plugin",
         "version": "dev-master",
         "source": {
