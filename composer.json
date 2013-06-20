@@ -1,5 +1,6 @@
 {
   "name": "ncuesta/symfony-legacy",
+  "version": "0.1.0"
   "license": "MIT",
   "type": "project",
   "description": "symfony 1.4 (Legacy) project installer -- Propel flavored",
