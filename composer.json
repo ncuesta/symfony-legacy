@@ -16,7 +16,7 @@
   "require": {
     "php": ">= 5.2.4, < 5.4",
     "composer/installers": "dev-master",
-    "symfony/symfony1": "1.4.20",
+    "symfony/symfony1": "1.4",
     "propel/sf-propel-o-r-m-plugin": "dev-master",
     "desarrollo/dcReferenceModelPlugin": "dev-master",
     "desarrollo/dcReloadedFormExtraPlugin": "dev-master"
