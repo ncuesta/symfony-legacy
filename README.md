@@ -2,6 +2,17 @@
 
 Create new symfony 1.4 projects easily with Composer.
 
+## What's included?
+
+This package includes a predefined set of plugins that I find myself using in
+every symfony project I start. Feel free to fork it and customized it to fit
+*your* needs.
+
+Bundled plugins:
+
+* **dcReferenceModelPlugin**
+* **dcReloadedFormExtraPlugin**
+
 ## Usage
 
 1. Get [Composer](http://getcomposer.org).
