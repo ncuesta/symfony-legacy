@@ -10,6 +10,7 @@ every symfony project I start. Feel free to fork it and customized it to fit
 
 Bundled plugins:
 
+* **sfPropelORMPlugin**
 * **dcReferenceModelPlugin**
 * **dcReloadedFormExtraPlugin**
 
