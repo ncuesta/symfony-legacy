@@ -20,8 +20,12 @@ Bundled plugins:
 2. Create a project using this installer:
 
 ```bash
-$ composer create-project ncuesta/symfony-legacy path/to/your/project
+$ composer create-project ncuesta/symfony-legacy path/to/your/hawt/project
+$ cd path/to/your/hawt/project
+$ php bin/symfony generate:project HawtnessProject
 ```
+
+**This rather hacky way to start the project will be automated and improved soon.**
 
 ## License
 
